@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+  .main__description--title {
+    font-size: 30px;
+  }
+
+  .carousel__container .row > div {
+    display: flex;
+    justify-content: center;
+  }
+}
