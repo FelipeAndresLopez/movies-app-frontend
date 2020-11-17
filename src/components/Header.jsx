@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../assets/styles/components/Header.scss";
 
-import logo from "../assets/static/logo-tempedge-video.png";
+import logo from "../assets/static/logo.png";
 import userIcon from "../assets/static/user-icon.png";
 
 const Header = () => (
@@ -11,7 +11,7 @@ const Header = () => (
     <header className="row justify-content-between align-items-center header">
       <div className="col-4">
         <Link to="/">
-          <img className="header__img" src={logo} alt="TempEdge Video" />
+          <img className="header__img" src={logo} alt="Videocamera icon" />
         </Link>
       </div>
 

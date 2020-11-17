@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const publicPath = "/"; // Set /TempEdgeVideo/ to run on github pages, to run on localhost, set just '/'
+const publicPath = "/"; // Set /repository name/ to run on github pages, to run on localhost, set just '/'
 
 module.exports = {
   performance: { hints: false },
